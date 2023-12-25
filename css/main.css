@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+.header{
+    background-color: rgb(255, 253, 253);
+    display: flex;
+    padding: 2rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center; 
+    align-items: center; 
+    gap: 1rem;
+}
+
+.logo {
+    width: 4rem;
+}
+
+.menu-link{
+    color: black;
+    text-decoration: none;
+    
+}
+
+.producto-contenedor{
+    display: grid;
+    grid-template-areas: 
+    "p-cuatro p-uno p-dos p-cinco"
+    "p-cuatro p-uno p-dos p-cinco";
+    padding:2rem;
+    background-color:rgb(255, 255, 255);
+    justify-content: center;
+}
+
+.producto-uno{
+    border-bottom: 1px solid rgb(255, 255, 255);
+    grid-area: p-uno;
+    align-self: end;
+}
+
+.producto-dos{
+    border-bottom: 1px solid rgb(255, 255, 255);
+    grid-area: p-dos;
+    
+}
+
+
+.producto-cuatro{
+    border-bottom: 1px solid rgb(255, 255, 255);
+    grid-area: p-cuatro;
+    
+}
+
+.producto-cinco{
+    border-bottom: 1px solid rgb(255, 255, 255);
+    grid-area: p-cinco;
+    align-self: end;
+}
+
+.footer{
+    display: flex;
+    padding: 3rem;
+    gap: 1rem;
+    background-color: black;
+    color: white;
+}
+
+.footer a{
+    color: white;
+}
+
+.footer-1{
+    flex: 3;
+}
+
+.footer-2, .footer-3{
+    flex: 1;
+}
+
+
+@media (max-width: 860px ) and (min-width: 390px){
+    .producto-contenedor{
+        grid-template-areas: 
+        "p-cuatro  p-uno"
+        "p-cuatro  p-uno"
+        "p-dos     p-cinco"
+        ;
+        justify-content: center
+    }
+}
+
+@media (max-widht: 860px) and (min-widht: 390px){
+    .carousel-slide{
+        justify-content: center;
+    }
+}
