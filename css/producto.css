@@ -4,12 +4,12 @@
     box-sizing: border-box;
 }
 
-img {
+.img {
     max-width: 100%;
 }
 
 .header{
-    background-color: rgb(255, 253, 253);
+    background-color: rgb(255, 255, 255);
     display: flex;
     padding: 2rem;
     justify-content: space-between;
@@ -36,39 +36,41 @@ img {
     
 }
 
-.producto-contenedor{
+.productos-contenedor{
     display: grid;
     grid-template-areas: 
-    "p-cuatro p-uno p-dos p-cinco"
-    "p-cuatro p-uno p-dos p-cinco";
-    padding:2rem;
-    background-color:rgb(255, 255, 255);
+    "producto-1  producto-2  producto-3"
+    "producto-4  producto-5  producto-6"
+    "producto-7  producto-8  producto-9";
+    padding: 4rem;
     justify-content: center;
 }
 
-.producto-uno{
-    border-bottom: 1px solid rgb(255, 255, 255);
-    grid-area: p-uno;
-    align-self: end;
+.producto-1{ border-bottom: 1px solid white;
 }
-
-.producto-dos{
-    border-bottom: 1px solid rgb(255, 255, 255);
-    grid-area: p-dos;
-    
+.producto-2{ border-bottom: 1px solid white;
 }
+.producto-3{ border-bottom: 1px solid white;
 
-
-.producto-cuatro{
-    border-bottom: 1px solid rgb(255, 255, 255);
-    grid-area: p-cuatro;
-    
 }
+.producto-4{ border-bottom: 1px solid white;
 
-.producto-cinco{
-    border-bottom: 1px solid rgb(255, 255, 255);
-    grid-area: p-cinco;
-    align-self: end;
+}
+.producto-5{ border-bottom: 1px solid white;
+
+}
+.producto-6{ border-bottom: 1px solid white;
+
+
+}
+.producto-7{ border-bottom: 1px solid white;
+
+}
+.producto-8{ border-bottom: 1px solid white;
+
+}
+.producto-9{ border-bottom: 1px solid white;
+
 }
 
 .footer{
@@ -91,15 +93,14 @@ img {
     flex: 1;
 }
 
-
 @media (max-width: 860px ) and (min-width: 390px){
-    .producto-contenedor{
-        grid-template-areas: 
-        "p-cuatro  p-uno"
-        "p-cuatro  p-uno"
-        "p-dos     p-cinco"
-        ;
+    .productos-contenedor{
+       grid-template-areas: 
+       "producto-1  producto-2 "
+       "producto-3  producto-4 "
+       " producto-5  producto-6"
+       "producto-7  producto-8 ";
         justify-content: center
+        
     }
 }
-
