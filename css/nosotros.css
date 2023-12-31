@@ -41,25 +41,12 @@
     text-transform: uppercase;
 }
 
-.footer{
-    display: flex;
-    padding: 3rem;
-    gap: 1rem;
-    background-color: black;
-    color: white;
+.texto{
+    text-align: center;
+    padding: 4rem 4rem 4rem;
 }
 
-.footer a{
-    color: white;
-}
 
-.footer-1{
-    flex: 3;
-}
-
-.footer-2, .footer-3{
-    flex: 1;
-}
 
 @media (max-width: 860px ) and (min-width: 390px){
     .cuerpo{
