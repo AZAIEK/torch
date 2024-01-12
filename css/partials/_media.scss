@@ -1,0 +1,24 @@
+@media(max-width: 860px ) and (min-width: 390px){
+    .producto-contenedor{
+        grid-template-areas: 
+        "p-cuatro  p-uno"
+        "p-cuatro  p-uno"
+        "p-dos     p-cinco"
+        ;
+        justify-content: center
+    }
+}
+
+@media (max-width: 860px ) and (min-width: 390px){
+    .form{
+        justify-content: center;
+    }
+      
+}
+
+@media (max-width: 860px ) and (min-width: 390px){
+    .cuerpo{
+        justify-content: center;
+    }
+      
+}

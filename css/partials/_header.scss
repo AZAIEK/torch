@@ -1,0 +1,29 @@
+.header{
+    background-color: $colorfondo;
+    display: flex;
+    padding: 2rem;
+    justify-content: space-between;
+    align-items: center;
+
+
+    .menu {
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center; 
+        align-items: center; 
+        gap: 1rem;
+    }
+    
+    .logo {
+        width: 4rem;
+    }
+    
+    .menu-link{
+        color: black;
+        text-decoration: none;
+        
+    }
+    
+}

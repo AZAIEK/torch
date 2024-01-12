@@ -1,0 +1,39 @@
+.productos{
+    display: grid;
+    grid-template-areas: 
+    "producto-1  producto-2  producto-3"
+    "producto-4  producto-5  producto-6"
+    "producto-7  producto-8  producto-9";
+    padding: 4rem;
+    justify-content: center;
+
+    .producto-1{ border-bottom: 1px solid $colorfondo;
+    }
+    .producto-2{ border-bottom: 1px solid $colorfondo;
+    }
+    .producto-3{ border-bottom: 1px solid $colorfondo;
+    
+    }
+    .producto-4{ border-bottom: 1px solid $colorfondo;
+    
+    }
+    .producto-5{ border-bottom: 1px solid $colorfondo;
+    
+    }
+    .producto-6{ border-bottom: 1px solid $colorfondo;
+    
+    
+    }
+    .producto-7{ border-bottom: 1px solid $colorfondo;
+    
+    }
+    .producto-8{ border-bottom: 1px solid $colorfondo;
+    
+    }
+    .producto-9{ border-bottom: 1px solid $colorfondo;
+    
+    }
+    
+   
+}
+

@@ -1,0 +1,38 @@
+.producto-contenedor{
+    display: grid;
+    grid-template-areas: 
+    "p-cuatro p-uno p-dos p-cinco"
+    "p-cuatro p-uno p-dos p-cinco";
+    padding:2rem;
+    background-color: $colorfondo;
+    justify-content: center;
+
+
+
+    .producto-uno{
+        border-bottom: 1px solid $colorfondo;
+        grid-area: p-uno;
+        align-self: end;
+    }
+    
+    .producto-dos{
+        border-bottom: 1px solid $colorfondo;
+        grid-area: p-dos;
+        
+    }
+    
+    
+    .producto-cuatro{
+        border-bottom: 1px solid $colorfondo;
+        grid-area: p-cuatro;
+        
+    }
+    
+    .producto-cinco{
+        border-bottom: 1px solid $colorfondo;
+        grid-area: p-cinco;
+        align-self: end;
+    }
+    
+}
+

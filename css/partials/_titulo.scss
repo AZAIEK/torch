@@ -1,0 +1,44 @@
+.titulo{
+    text-align: center;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+
+}
+
+input{
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 4px solid black;
+}
+
+
+
+
+
+.titulo-nosotros{
+    text-align: center;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+   
+    border-bottom: 4px solid;
+
+
+
+    
+}
+
+
+
+h2{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.cuerpo{
+    background-color: $colorfondo;
+}
